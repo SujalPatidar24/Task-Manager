@@ -1,25 +1,58 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ProjectBoard from './ProjectBoard';
+import './styles.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='main'>
+      <h1 className='head' >Project Board</h1>
+      <ProjectBoard />
     </div>
   );
-}
+};
 
 export default App;
+
+// import React from 'react';
+// import ProjectBoard from './ProjectBoard';
+// // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import { BrowserRouter as Router, Route } from 'react-router-dom';
+// import { Switch } from 'react-router-dom';
+
+
+// const App = () => {
+//   return (
+//     <Router>
+//       <div>
+//         <h1>Project Board</h1>
+//         <Switch>
+//           <Route path="/" exact component={ProjectBoard} />
+//           {/* Add more routes if needed */}
+//         </Switch>
+//       </div>
+//     </Router>
+//   );
+// };
+
+// export default App;
+
+
+// import React from 'react';
+// import ProjectBoard from './ProjectBoard';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+// const App = () => {
+//   return (
+//     <Router>
+//       <div>
+//         <h1>Project Board</h1>
+//         <Routes>
+//           <Route path="/" element={<ProjectBoard />} />
+//           {/* Add more routes as needed */}
+//         </Routes>
+//       </div>
+//     </Router>
+//   );
+// };
+
+// export default App;

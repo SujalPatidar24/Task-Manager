@@ -1,0 +1,45 @@
+.project-board {
+    display: flex;
+    color: #1a0876;
+  }
+  
+  .status {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #a353e9;
+    border-radius: 5px;
+  }
+  
+  .task {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #c0ade5;
+    border: 1px solid #080113;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-top: 5px;
+    background-color: #5512d1;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #579be5;
+  }
+  
+
+  .main{
+    background-color: rgb(180, 155, 237);
+    .head{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+        color: #1a0876;
+    }
+  }
